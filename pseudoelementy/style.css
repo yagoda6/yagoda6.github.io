@@ -1,0 +1,23 @@
+
+
+
+#p1::before {
+    
+    content: "przed elementem";
+    color: red;
+}
+
+#p2::after {
+    content: "po elemencie";
+    color: blue;
+}
+
+#p3::first-letter {
+    
+}
+
+#p5 {
+    
+    font-size: 50px;
+    color: red;
+}
