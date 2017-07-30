@@ -17,12 +17,12 @@ body {
 }
 
 @media (max-width: 786px) {
-    .box {
+    #gallery {
         width: 100%;
     }
     
     @media all and (min-width: 786px) and (max-width: 950px) {
-        .box {
+        #gallery {
             width: 50%;
         }
     }
