@@ -1,0 +1,13 @@
+img#kwiatek1 {
+    float: left;
+}
+
+img#kwiatek2 {
+    float: right;
+}
+
+p:last-child {
+    background-color: beige;
+    clear: both;
+}
+

@@ -1,0 +1,7 @@
+#obrazek-tlo {
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-color: darkviolet;
+    background-image:url("../img/kwiatek.jpg")
+    
+}

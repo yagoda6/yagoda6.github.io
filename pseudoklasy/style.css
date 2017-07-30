@@ -1,0 +1,78 @@
+p {
+    
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color: deeppink;
+
+}
+
+a:hover {
+    
+    text-decoration: underline;
+}
+
+a:active {
+    
+    color: deepskyblue;
+}
+
+a:focus {
+    
+    color: blueviolet;
+}
+
+#p1 {
+    
+    color: deeppink;
+}
+
+#p1:target {
+    color: lawngreen;
+}
+
+P:lang(pl) {
+    font-style: italic;
+    color: fuchsia;
+}
+p:lang(en) {
+    color: darkblue;
+}
+
+p:lang(de) {
+    color: brown;
+}
+
+
+div.klient:first-child {
+    color: greenyellow;
+}
+
+div.klient:last-child {
+    color: fuchsia;
+}
+
+div.klient:empty {
+    
+    width: 200px;
+    height: 200px;
+    background-color: black;
+}
+
+.klient:nth-child(even) {
+ background-color: aqua;
+}
+
+.klient:nth-child(3n+3) {
+ background-color: grey;
+}
+

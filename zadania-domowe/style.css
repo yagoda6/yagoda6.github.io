@@ -1,0 +1,62 @@
+form {
+    background-color: #213b50;
+    color: #fff;
+    width: 600px;
+    padding: 20px;
+
+}
+
+label {
+    color: #fff;
+
+    
+}
+
+form select, form input[type="text"], form input[type="tel"], form input[type="email"] {
+    width: 300px;
+    background-color: #2b4a64;
+    color: #fff;
+    border: #2b4a64 1px solid;
+    height: 25px;
+    
+}
+
+input {
+    background-color: #2b4a64;
+    border: 0;
+    
+}
+
+input:focus{
+background-color: #4e708c;
+    border: #fff 1px solid;
+}
+select {
+    background-color: #2b4a64;
+    color: #fff;
+    border: 0;
+    height: 25px;
+    width: 300px;
+}
+
+textarea {
+    color: #fff;
+    background-color: #2b4a64;
+    border: 0;
+    height: 100px;
+    width: 300px;
+}
+
+input[type="submit"] {
+    background-color: limegreen;
+    height: 40px;
+    width: 70px;
+    font-weight: 900;
+    color: #fff;
+    cursor: cell;
+    
+}
+
+form input[type="submit"]:hover {
+    background-color: greenyellow;
+}

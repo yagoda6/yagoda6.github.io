@@ -1,0 +1,30 @@
+.box {
+    width: 300px;
+    height: 150px;
+    border: 1px solid red;
+    margin: 60px;
+}
+
+#visible {
+    color: green;
+    overflow: visible;
+}
+
+#hidden {
+    color: blue;
+    overflow: hidden;
+
+}
+
+#auto {
+    
+    color: orange;
+    overflow: auto;
+}
+
+
+#scroll {
+    
+    color: aqua;
+    overflow: scroll;
+}
