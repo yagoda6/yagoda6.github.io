@@ -1,0 +1,26 @@
+p {
+    height: 20px;
+    width: 20px;
+    background-color: black; 
+    color: white;
+    text-align: center;
+}
+
+#love {
+    width: 50px;
+}
+
+
+.1 {
+    animation: animacja 1s ease 1;
+}
+    @keyframes animacja {
+        0% {
+            transform: scale(0, 0) rotate(0deg);
+        }
+        
+        100% {
+            transform: scale(1, 1) rotate(600deg);
+        }
+    }
+
