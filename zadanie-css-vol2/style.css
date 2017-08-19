@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'Verdana';
+    color: white;
+    overflow: hidden;
+}
+
+.slider {
+    background-image: url(obrazy/man-1.jpg);
+    background-position: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+}
+
+.napis {
+    font-weight: 300;
+    font-variant: small-caps;
+    position: absolute;
+    background-position: center;
+    text-align: left;
+    top: 50%;
+    left: 5%;
+    bottom: 50%;
+    font-size: 30px;
+}
+
+.napis p span {
+    font-size: 40px;
+    font-weight: 700;
+    bottom: 50%;
+}
