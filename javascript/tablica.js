@@ -50,3 +50,5 @@ zbiorImion.splice(2,1);
 console.log(zbiorImion);
 
 console.log(zbiorImion.toString());
+
+
