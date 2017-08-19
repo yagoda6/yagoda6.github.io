@@ -1,19 +1,27 @@
 'use strict';
 
-var osoba = {
+var wojtek = {
     imie: "Wojtek",
     wzrost: 181,
-    przedstawOsobe: function() {
+    przedstawOsobe: function () {
         console.log("Cześć jestem " + this.imie + ", mam " + this.wzrost + " wzrostu");
     }
 }
 
-console.log(osoba.imie);
-console.log(osoba.wzrost);
 
-osoba.imie = "Adrian";
+var kaja = {
+    imie: "Kaja",
+    wzrost: 160,
+    przedstawOsobe: function () {
+        console.log("Cześć jestem " + this.imie + ", mam " + this.wzrost + " wzrostu");
+    }
 
-console.log(osoba["imie"]);
-console.log(osoba["wzrost"]);
 
-osoba.przedstawOsobe();
+}
+
+
+wojtek.przedstawOsobe();
+
+console.log(kaja.imie);
+console.log(kaja.wzrost);
+kaja.przedstawOsobe();
