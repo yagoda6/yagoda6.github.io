@@ -1,26 +1,48 @@
+@keyframes anim {
+    0% {color: black}
+    
+    100% {visibility: hidden}
+}
+
+.numery {
+    position: relative;
+    font-size: 200px;
+}
+
+.love {
+    font-size: 80px;
+}
+
 p {
-    height: 20px;
-    width: 20px;
-    background-color: black; 
-    color: white;
+    
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background-color: violet;
     text-align: center;
+    padding: 100px;
+    text-decoration-color: black;
+    margin: 30px;
+    top: 30px;
+    box-sizing: border-box;
 }
 
-#love {
-    width: 50px;
+.dziesiec {
+    animation-duration: 1s;
+    animation-name: anim; 
+    
 }
 
-
-.1 {
-    animation: animacja 1s ease 1;
+.dziewiec {
+    animation-duration: 4s;
+    animation-name: anim; 
+    
 }
-    @keyframes animacja {
-        0% {
-            transform: scale(0, 0) rotate(0deg);
-        }
-        
-        100% {
-            transform: scale(1, 1) rotate(600deg);
-        }
-    }
+
+.osiem {
+    animation-duration: 6s;
+    animation-name: anim; 
+    
+}
+
 
